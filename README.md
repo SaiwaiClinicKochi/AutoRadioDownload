@@ -2,6 +2,8 @@ BBCは英語、北京放送・NHKは日本語。NHKはニュースと国会中�
 
 ２つのファイルを同一フォルダに配置してradiodownload_tool.pyを起動
 
+止めたければ　Ctrl＋Cで終わる
+
 準備としてyt-dlpやffmpegをDL
 
 Preparation: download and install yt-dlp and ffmpeg.
