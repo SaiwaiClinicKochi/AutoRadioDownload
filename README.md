@@ -6,6 +6,8 @@ BBCは英語、北京放送・NHKは日本語。NHKはニュースと国会中�
 
 準備としてyt-dlpやffmpegをDL
 
+DLした２つの.pyファイルをそれぞれ右クリックしてPropertiesで実行権限をPermissionsタブ内でチェック（Allow executing..）
+
 Preparation: download and install yt-dlp and ffmpeg.
 
 sudo wget -O /usr/local/bin/yt-dlp \
