@@ -112,13 +112,23 @@ jobs:
           print(clones_json)
           print(views_json)
 
+          print("===== traffic.txt =====")
+
+          with open(filepath, "r", encoding="utf-8") as f:
+              print(f.read())
+
           EOF
 
       - name: commit
         run: |
+          echo "===== git status ====="
+
+          git status
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
           git add traffic/traffic.txt
-
+          git status
           git commit -m "update traffic log" || echo "no changes"
+
+          git push
