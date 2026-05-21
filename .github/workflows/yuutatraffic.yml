@@ -109,6 +109,9 @@ jobs:
           with open(filepath, "a", encoding="utf-8") as f:
               f.write(f"{today},{unique_cloners},{unique_visitors}\n")
 
+          print(clones_json)
+          print(views_json)
+
           EOF
 
       - name: commit
